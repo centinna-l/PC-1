@@ -5,7 +5,7 @@ public class ReplaceString {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter your String");
         String str = sc.nextLine();
-        System.out.println(str.replace("hate", "love"));
+        System.out.println(str.replaceAll("hate", "love"));
         sc.close();
     }
 }

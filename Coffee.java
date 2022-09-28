@@ -1,5 +1,5 @@
 public class Coffee {
-    static final int limit = 1000;
+    static final int limit = 10000;
 
     public static void main(String[] args) {
         int caffineContent = 34;
