@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/*
+ * get the option from the user and use a while to iterate through the option.
+ * 1 - square - calulate the permiter side *side
+ * i==j for diagnol from left to right and j==side-i+1 for the diagnol of right to left
+ * 2 - triangle run two for loops. i=0 to i<side, j=0, j<=i. 
+ * 3- exit.
+ */
 public class PatternGenerator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
