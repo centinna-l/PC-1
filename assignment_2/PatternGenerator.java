@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 /*
+Jerry Joy - 2203196
  * get the option from the user and use a while to iterate through the option.
  * 1 - square - calulate the permiter side *side
  * i==j for diagnol from left to right and j==side-i+1 for the diagnol of right to left
