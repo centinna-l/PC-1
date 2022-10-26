@@ -11,7 +11,7 @@ public class PasswordGenerator {
         Scanner sc = new Scanner(System.in);
         String str = "";
         String password = "";
-        while (!str.toLowerCase().matches("no")) {
+        while (true) {
             System.out.println("Enter a word: (No to stop)");
             str = sc.nextLine();
             if (str.toLowerCase().matches("no")) {
