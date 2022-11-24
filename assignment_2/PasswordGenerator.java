@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 /**
+ * Jerry Joy - 2203196
  * We take the string,
  * 1. extract all the number and other characters in the string.
  * 2. use the second string varible and generate the password.
