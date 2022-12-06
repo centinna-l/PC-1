@@ -15,13 +15,14 @@ public class Driver {
         Scanner sc = new Scanner(System.in);
         ArrayList<GPS> arrayList = new ArrayList<GPS>();
         String keyword = "yes";
+        String junk = "";
+        System.out.println(junk);
         while (!keyword.equalsIgnoreCase("no")) {
             System.out.println("Enter the coordinates with x, y, time");
             double x = sc.nextDouble();
             double y = sc.nextDouble();
             int t = sc.nextInt();
-            String junk = sc.nextLine(); // get rid of \n
-
+            junk = sc.nextLine(); // get rid of \n
             GPS gps = new GPS(x, y, t);
             arrayList.add(gps);
             System.out.println("Add new points (yes or no?)");

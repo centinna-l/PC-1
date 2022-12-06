@@ -7,5 +7,7 @@ public class Test {
         System.out.println(str.substring(0, str.indexOf(" ") + 1).toUpperCase()
                 + str.substring(str.indexOf(" ")).toLowerCase());
 
+        console.close();
+
     }
 }

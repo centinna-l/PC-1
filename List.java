@@ -1,6 +1,4 @@
 import java.util.*;
-import java.io.*;
-import java.math.*;
 
 /**
  * Auto-generated code below aims at helping you parse
@@ -33,6 +31,7 @@ class List {
         for (int i = 0; i < list.size(); i++) {
             System.out.print(list.get(i) + " ");
         }
+        in.close();
     }
 
     public static boolean checkPrime(int n) {
